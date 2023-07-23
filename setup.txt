@@ -1,0 +1,24 @@
+1. install curl
+2. install nvm
+3. install vscode
+4. using nvm, install lts version of node
+5. create launch config file, type chrome, port 3000, timeout 20000
+
+inside vscode terminal:
+1. npx create-react-app <appname> --template typescript
+2. in tsconfig, add sourceMap:true
+2. install jest:
+    a. npm install --save-dev babel-jest @babel/core @babel/preset-env
+    b. create babel.config.js file and populate as is 
+    c. npm install --save-dev @babel/preset-typescript
+    d. npm i -D jest
+    x. npm i -D ts-jest @types/jest   (this fails)
+    y. npx ts-jest config:init
+    e. npm install --save-dev @babel/plugin-proposal-private-property-in-object.
+
+
+to start the server:
+npm start
+
+to run tests:
+npm run test
